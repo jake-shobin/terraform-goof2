@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-goof
+  annotations:
+    github.com/project-slug: snyk/terraform-goof
+    github.com/team-slug: "@snyk/cloud-dev-ex"
+spec:
+  type: intentionally-vulnerable
+  lifecycle: "-"
+  owner: cloud-dev-ex
